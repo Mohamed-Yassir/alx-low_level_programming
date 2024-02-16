@@ -7,8 +7,10 @@
  * Return: Always 0 (success)
  */
 
-/* main: assigns a random number to variable n eachtime
- * and exucte it and prints it if it positive or negative */
+/*
+ * main: assigns a random number to variable n eachtime
+ * and exucte it and prints it if it positive or negative
+ */
 int main(void)
 {
 	int n;
@@ -21,6 +23,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
-	/* your code goes there */
 	return (0);
 }
