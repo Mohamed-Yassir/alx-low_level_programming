@@ -7,7 +7,8 @@
  * Return: Always 0 (success)
  */
 
-/* betty style doc for function main goes there */
+/* main: assigns a random number to variable n eachtime
+ * and exucte it and prints it if it positive or negative */
 int main(void)
 {
 	int n;
