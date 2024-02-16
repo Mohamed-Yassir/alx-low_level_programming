@@ -3,16 +3,18 @@
 #include <time.h>
 
 /*
- * main - Print all single digits of base 10 starting from 0
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 
 int main(void)
-{
-	int a = 0;
 
-	for (a = 0; a <= 9; a++);
+{
+	int a;
+
+	for (a = 0; a <= 9; a++)
 	printf("%d\n", a);
+	printf("\n");
 
 	return (0);
 }
