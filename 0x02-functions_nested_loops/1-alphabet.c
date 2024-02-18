@@ -1,12 +1,14 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
 
 /**
  * print_alphabet - Entry point
- * Return:0
+ * Return: Always 0
  */
 
 void print_alphabet(void)
+
 {
 	char c = 'a';
 
