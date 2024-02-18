@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main: assigns a random number to variable n eachtime
+ * main - Entry Point
  * Return: Always 0 (Success)
  */
 
